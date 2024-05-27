@@ -1,0 +1,4 @@
+#Targets
+.PRECIOUS: %/.
+%/. :
+	@mkdir -p $@
